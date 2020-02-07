@@ -1,0 +1,12 @@
+api_key: <YOUR-DATADOG-API-KEY>
+dd_url: https://<YOUR-PROXY-SERVERNAME>:3834
+skip_ssl_validation: true
+process_config:
+  enabled: true
+  process_dd_url: https://<YOUR-PROXY-SERVERNAME>:3836
+apm_config:
+  apm_dd_url: https://<YOUR-PROXY-SERVERNAME>:3835
+logs_enabled: true
+logs_config:
+  logs_dd_url: <YOUR-PROXY-SERVERNAME>:10514
+  logs_no_ssl: true
